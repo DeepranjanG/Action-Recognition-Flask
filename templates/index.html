@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<center>
+    <h2 class="text">Action Recognition</h2>
+    <p>Upload a video
+    <div class="upload-form">
+      <form action = "/predict" method = "POST" 
+        enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+      </form>
+    </div>
+</center>
+{% endblock %}  

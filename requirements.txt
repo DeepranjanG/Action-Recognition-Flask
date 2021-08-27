@@ -1,0 +1,6 @@
+Flask==2.0.1
+Flask-Cors==3.0.10
+Pillow==8.0.1
+numpy==1.16.6
+gluoncv==0.8.0
+decord==0.4.1
